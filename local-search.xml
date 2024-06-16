@@ -4,6 +4,32 @@
   
   
   <entry>
+    <title>杭子的笔记</title>
+    <link href="/2024/06/16/%E5%95%A5%E4%B9%9F%E4%B8%8D%E6%98%AF/"/>
+    <url>/2024/06/16/%E5%95%A5%E4%B9%9F%E4%B8%8D%E6%98%AF/</url>
+    
+    <content type="html"><![CDATA[<p>虚拟终端（pts）快捷键</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">shift</span>+ctrl+ +  扩大<br><br>​ctrl + - 缩小<br><br>​<span class="hljs-built_in">shift</span>+ctrl + t  新标签<br><br>​alt+ 1    2    3    切换标签<br><br>​<span class="hljs-built_in">shift</span>+ctrl+w  关闭标签<br><br>​alt+ F4  关闭终端<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>测试</title>
+    <link href="/2024/06/16/%E6%B5%8B%E8%AF%95/"/>
+    <url>/2024/06/16/%E6%B5%8B%E8%AF%95/</url>
+    
+    <content type="html"><![CDATA[<p>试试直接添加md文件</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>傻逼小染</title>
     <link href="/2024/06/16/%E5%82%BB%E9%80%BC%E5%B0%8F%E6%9F%93/"/>
     <url>/2024/06/16/%E5%82%BB%E9%80%BC%E5%B0%8F%E6%9F%93/</url>
@@ -21,7 +47,7 @@
     <link href="/2024/06/15/hello-world/"/>
     <url>/2024/06/15/hello-world/</url>
     
-    <content type="html"><![CDATA[<p>这是一个为了测试存在的页面，另外</p><p>###放个玉桂狗</p>]]></content>
+    <content type="html"><![CDATA[<table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>]]></content>
     
     
     
