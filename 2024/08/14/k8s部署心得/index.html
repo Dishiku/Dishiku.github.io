@@ -20,31 +20,35 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="这个是基于hexo搭建的博客用来记录一些长久存放的稳定记录">
-<meta property="og:type" content="website">
-<meta property="og:title" content="miaosl的博客（hexo）">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="追加123cat &lt;&lt;EOF | tee -a aa.txt你的内容EOF  覆盖123cat &lt;&lt;EOF | tee  aa.txt你的内容EOF  ansible使用：安装（centos7.9）12yum install epel-*yum install ansible  hosts配置直接在&#x2F;etc&#x2F;ansible&#x2F;hosts文件中写好">
+<meta property="og:type" content="article">
+<meta property="og:title" content="k8s部署心得">
+<meta property="og:url" content="http://example.com/2024/08/14/k8s%E9%83%A8%E7%BD%B2%E5%BF%83%E5%BE%97/index.html">
 <meta property="og:site_name" content="miaosl的博客（hexo）">
-<meta property="og:description" content="这个是基于hexo搭建的博客用来记录一些长久存放的稳定记录">
+<meta property="og:description" content="追加123cat &lt;&lt;EOF | tee -a aa.txt你的内容EOF  覆盖123cat &lt;&lt;EOF | tee  aa.txt你的内容EOF  ansible使用：安装（centos7.9）12yum install epel-*yum install ansible  hosts配置直接在&#x2F;etc&#x2F;ansible&#x2F;hosts文件中写好">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="c:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240730132728747.png">
+<meta property="article:published_time" content="2024-08-14T10:22:00.000Z">
+<meta property="article:modified_time" content="2024-08-14T10:27:12.124Z">
 <meta property="article:author" content="miaoshilei">
-<meta property="article:tag" content="苗世雷">
+<meta property="article:tag" content="运维">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240730132728747.png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2024/08/14/k8s%E9%83%A8%E7%BD%B2%E5%BF%83%E5%BE%97/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>miaosl的博客（hexo）</title>
+  <title>k8s部署心得 | miaosl的博客（hexo）</title>
   
 
 
@@ -158,70 +162,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/08/18/hello/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="miaoshilei">
-      <meta itemprop="description" content="这个是基于hexo搭建的博客用来记录一些长久存放的稳定记录">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="miaosl的博客（hexo）">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/08/18/hello/" class="post-title-link" itemprop="url">hello</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-08-18 16:35:32 / 修改时间：17:05:26" itemprop="dateCreated datePublished" datetime="2024-08-18T16:35:32+08:00">2024-08-18</time>
-            </span>
-
-          
-
-        </div>
-      </header>
 
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>‘’’’<br>dfadfasfasd<br>‘’’’</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fadfasdfasf</span><br></pre></td></tr></table></figure>
-<p><code>adgasdgas</code></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -237,10 +181,9 @@
       <meta itemprop="name" content="miaosl的博客（hexo）">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/08/14/k8s%E9%83%A8%E7%BD%B2%E5%BF%83%E5%BE%97/" class="post-title-link" itemprop="url">k8s部署心得</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          k8s部署心得
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -264,7 +207,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="追加"><a href="#追加" class="headerlink" title="追加"></a>追加</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> &lt;&lt;<span class="string">EOF | tee -a aa.txt</span></span><br><span class="line"><span class="string">你的内容</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
+        <h2 id="追加"><a href="#追加" class="headerlink" title="追加"></a>追加</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> &lt;&lt;<span class="string">EOF | tee -a aa.txt</span></span><br><span class="line"><span class="string">你的内容</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="覆盖"><a href="#覆盖" class="headerlink" title="覆盖"></a>覆盖</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> &lt;&lt;<span class="string">EOF | tee  aa.txt</span></span><br><span class="line"><span class="string">你的内容</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
 
@@ -396,21 +339,33 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">watch kubectl get pods -n calico-system</span><br><span class="line"><span class="comment"># 类似tail -f？</span></span><br></pre></td></tr></table></figure>
 
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          <div class="post-tags">
+              <a href="/tags/%E8%BF%90%E7%BB%B4/" rel="tag"># 运维</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2024/08/18/hello/" rel="next" title="hello">
+      hello <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -463,6 +418,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0"><span class="nav-number">1.</span> <span class="nav-text">追加</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A6%86%E7%9B%96"><span class="nav-number">2.</span> <span class="nav-text">覆盖</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ansible%E4%BD%BF%E7%94%A8%EF%BC%9A"><span class="nav-number"></span> <span class="nav-text">ansible使用：</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%EF%BC%88centos7-9%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">安装（centos7.9）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hosts%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">hosts配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#containerd%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">containerd安装配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">3.1.</span> <span class="nav-text">安装</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%98%E6%96%B9%EF%BC%9A"><span class="nav-number">3.1.1.</span> <span class="nav-text">官方：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%98%BF%E9%87%8C%EF%BC%9A"><span class="nav-number">3.1.2.</span> <span class="nav-text">阿里：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#containerd%E5%91%BD%E4%BB%A4%E5%B7%A5%E5%85%B7"><span class="nav-number">3.1.3.</span> <span class="nav-text">containerd命令工具</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E7%89%88%E5%8A%A0%E9%80%9F%E9%95%9C%E5%83%8F%E7%AB%99%E9%85%8D%E7%BD%AE%EF%BC%9A"><span class="nav-number">3.1.4.</span> <span class="nav-text">新版加速镜像站配置：</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E9%BB%98%E8%AE%A4%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">3.1.4.1.</span> <span class="nav-text">生成默认配置文件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E9%85%8D%E7%BD%AE%EF%BC%9A"><span class="nav-number">3.1.4.2.</span> <span class="nav-text">初始配置：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AEpause%E7%89%88%E6%9C%AC"><span class="nav-number">3.1.4.3.</span> <span class="nav-text">设置pause版本</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%8D%E5%BC%80"><span class="nav-number">4.</span> <span class="nav-text">重开</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%B8%85%E9%99%A4-CNI-%E9%85%8D%E7%BD%AE"><span class="nav-number">4.1.</span> <span class="nav-text">1. 清除 CNI 配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%B8%85%E9%99%A4-IP-%E8%A1%A8%E5%92%8C-IPVS-%E8%A1%A8"><span class="nav-number">4.2.</span> <span class="nav-text">2. 清除 IP 表和 IPVS 表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%88%A0%E9%99%A4-kubeconfig-%E6%96%87%E4%BB%B6"><span class="nav-number">4.3.</span> <span class="nav-text">3. 删除 kubeconfig 文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E6%B8%85%E7%90%86%E7%BD%91%E7%BB%9C%E6%8E%A5%E5%8F%A3"><span class="nav-number">4.4.</span> <span class="nav-text">4. 清理网络接口</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E5%81%9C%E6%AD%A2%E5%B9%B6%E7%A6%81%E7%94%A8-kubelet-%E6%9C%8D%E5%8A%A1"><span class="nav-number">4.5.</span> <span class="nav-text">5. 停止并禁用 kubelet 服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-%E5%88%A0%E9%99%A4-Kubernetes-%E7%9B%B8%E5%85%B3%E7%9B%AE%E5%BD%95"><span class="nav-number">4.6.</span> <span class="nav-text">6. 删除 Kubernetes 相关目录</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
